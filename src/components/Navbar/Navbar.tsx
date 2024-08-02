@@ -17,19 +17,19 @@ const Navbar = () => {
       <button className={styles.navbarToggler} onClick={toggleNavbar}>☰</button>
       <ul className={`${styles.navbarNav} ${styles.navbarCollapse} ${isOpen ? styles.open : ""}`}>
         <li className={styles.navItem}>
-          <Link href="/" className={styles.navItemLink}>Play</Link>
+          <Link href="/play" className={styles.navItemLink}>Play</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/HTML" className={styles.navItemLink}>Puzzles</Link>
+          <Link href="/puzzles" className={styles.navItemLink}>Puzzles</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/CSS" className={styles.navItemLink}>Learn</Link>
+          <Link href="/learn" className={styles.navItemLink}>Learn</Link>
         </li >
         <li className={styles.navItem}>
-          <Link href="/Menu" className={styles.navItemLink}>Broadcast</Link>
+          <Link href="/broadcast" className={styles.navItemLink}>Broadcast</Link>
         </li>
         <li className={styles.navItem}>
-          <Link href="/Menu" className={styles.navItemLink}>Blog</Link>
+          <Link href="/blog" className={styles.navItemLink}>Blog</Link>
         </li>
       </ul>
     </nav>
