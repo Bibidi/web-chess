@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2rem;
+  padding: 1rem;
+}
+
+.navbarTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+.navbarTitle:hover {
+  color: hsl(209, 79%, 56%);
+}
+
+.navbarToggler {
+  display: none;
+  font-size: 24px;
+  background: none;
+  background-color: rgba(0, 0, 0, .2);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.navbarNav {
+  list-style: none;
+  display: flex;
+}
+
+.navItem {
+  display: block;
+  margin: 1rem 0;
+}
+
+.navItemLink {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  transition: color 0.3s;
+}
+
+.navItemLink:hover {
+  color: hsl(209, 79%, 56%);
+  background-color: #575757;
+}
